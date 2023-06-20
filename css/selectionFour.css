@@ -1,0 +1,28 @@
+.selection_four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.left_four button{
+    width: 174px;
+    height: 50px;
+
+    background: #FD695A;
+    border-radius: 50px;
+    border: 0;
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 28px;
+}
+.left_four button:hover{
+    background: #da6154;
+}

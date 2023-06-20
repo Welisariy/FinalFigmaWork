@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+/* ЛОГОТИП */
+.logo {
+    font-family: 'Mulish', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: #3D3D3F;
+
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+/* ССЫЛКИ */
+.menu{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #150A29;
+}
+a:link{color: #150A29;}
+a:visited {color:#150A29;}  
+a:hover {color:#6b666b}  /* mouse over link */
+a:active {color: #150A29;}
+.menu a{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.button_header{
+width: 137px;
+height: 50px;
+background: #FD695A;
+border-radius: 50px;
+
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+border:0;
+}
+.button_header:hover{
+    background: #da6154;
+}

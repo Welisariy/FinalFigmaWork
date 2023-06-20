@@ -1,0 +1,16 @@
+.companys_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.selection_two .h2{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3D3D3F;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
